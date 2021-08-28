@@ -11,9 +11,9 @@ const Routes = () => {
         component={GameView}
         exact
         layout={MinimalLayout}
-        path="/"
+        path="/game/sudoku"
       />
-      <Redirect to="/" />
+      <Redirect to="/game/sudoku" />
     </Switch>
   );
 };
