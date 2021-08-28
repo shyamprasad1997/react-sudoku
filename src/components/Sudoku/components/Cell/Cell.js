@@ -1,5 +1,5 @@
 import React from "react";
-import { Input, Popover, PopoverHeader, PopoverBody, Button } from "reactstrap";
+import { Input, Popover, PopoverBody, Button } from "reactstrap";
 import "./Cell.css";
 
 class PageHeader extends React.Component {
@@ -12,7 +12,7 @@ class PageHeader extends React.Component {
         <Input
           style={this.props.invalid ? { backgroundColor: "#c13434" } : {}}
           id={`Popover${this.props.id}`}
-          value={this.props.value == 0 ? "" : this.props.value}
+          value={this.props.value === 0 ? "" : this.props.value}
           onChange={() => {}}
           disabled={this.props.disabled}
         ></Input>

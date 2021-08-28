@@ -4,7 +4,6 @@ const Check = data => {
   let squareGrid = [];
   const invalidIndices = [];
   data.forEach((item, i) => {
-    let vert = [];
     item.forEach((element, j) => {
       if (element === 0) {
         invalidIndices.push(i + "" + j);
@@ -137,7 +136,7 @@ const checkDuplicateHorizontal = data => {
   let duplicates = [];
   for (let i = 0; i < 9; i++) {
     for (let j = 0; j < 9; j++) {
-      if (i != j && data[i] == data[j]) {
+      if (i !== j && data[i] === data[j]) {
         duplicates.push([i, j]);
       }
     }
