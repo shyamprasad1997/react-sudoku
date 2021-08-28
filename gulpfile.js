@@ -4,15 +4,28 @@ const gap = require("gulp-append-prepend");
 gulp.task("licenses", async function() {
   gulp
     .src("build/static/js/*chunk.js", { base: "./" })
-    .pipe(gap.prependText(`/*unigames sudoku in react 1*/`))
+    .pipe(
+      gap.prependText(
+        `/*! * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.*/`
+      )
+    )
     .pipe(gulp.dest("./", { overwrite: true }));
+
   gulp
     .src("build/index.html", { base: "./" })
-    .pipe(gap.prependText(`/*unigames sudoku in react 2*/`))
+    .pipe(
+      gap.prependText(`<!--
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+-->`)
+    )
     .pipe(gulp.dest("./", { overwrite: true }));
   gulp
     .src("build/static/css/*chunk.css", { base: "./" })
-    .pipe(gap.prependText(`/*unigames sudoku in react 3*/`))
+    .pipe(
+      gap.prependText(`/*!
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+*/`)
+    )
     .pipe(gulp.dest("./", { overwrite: true }));
   return;
 });
