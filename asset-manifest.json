@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-sudoku/static/css/main.5ea30d3a.chunk.css",
+    "main.js": "/react-sudoku/static/js/main.fc0b2cb6.chunk.js",
+    "main.js.map": "/react-sudoku/static/js/main.fc0b2cb6.chunk.js.map",
+    "runtime-main.js": "/react-sudoku/static/js/runtime-main.355a75d5.js",
+    "runtime-main.js.map": "/react-sudoku/static/js/runtime-main.355a75d5.js.map",
+    "static/js/2.dd0121fb.chunk.js": "/react-sudoku/static/js/2.dd0121fb.chunk.js",
+    "static/js/2.dd0121fb.chunk.js.map": "/react-sudoku/static/js/2.dd0121fb.chunk.js.map",
+    "index.html": "/react-sudoku/index.html",
+    "precache-manifest.16dd9274b48d1d4f89c3ddd0fa5564a5.js": "/react-sudoku/precache-manifest.16dd9274b48d1d4f89c3ddd0fa5564a5.js",
+    "service-worker.js": "/react-sudoku/service-worker.js",
+    "static/css/main.5ea30d3a.chunk.css.map": "/react-sudoku/static/css/main.5ea30d3a.chunk.css.map",
+    "static/js/2.dd0121fb.chunk.js.LICENSE.txt": "/react-sudoku/static/js/2.dd0121fb.chunk.js.LICENSE.txt",
+    "static/media/blk-design-system-react.scss?v=1.1.0": "/react-sudoku/static/media/square5.ff004a0e.png",
+    "static/media/nucleo-icons.css": "/react-sudoku/static/media/nucleo.f0b489a5.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.355a75d5.js",
+    "static/js/2.dd0121fb.chunk.js",
+    "static/css/main.5ea30d3a.chunk.css",
+    "static/js/main.fc0b2cb6.chunk.js"
+  ]
+}
