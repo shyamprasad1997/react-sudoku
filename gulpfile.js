@@ -5,19 +5,19 @@ gulp.task("licenses", async function() {
   gulp
     .src("build/static/js/*chunk.js", { base: "./" })
     .pipe(
-      gap.prependText(``)
+      gap.prependText(` unigames sudoku in react`)
     )
     .pipe(gulp.dest("./", { overwrite: true }));
   gulp
     .src("build/index.html", { base: "./" })
     .pipe(
-      gap.prependText(``)
+      gap.prependText(` unigames sudoku in react `)
     )
     .pipe(gulp.dest("./", { overwrite: true }));
   gulp
     .src("build/static/css/*chunk.css", { base: "./" })
     .pipe(
-      gap.prependText(``)
+      gap.prependText(`unigames sudoku in react`)
     )
     .pipe(gulp.dest("./", { overwrite: true }));
   return;
